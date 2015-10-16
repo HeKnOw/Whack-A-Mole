@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="55sp"
+        android:text="User Profile"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameTv"
+        android:textSize="35sp"
+        android:text="Username"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Age:"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ageTv"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:text="14"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Gender:"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderTv"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="Male"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Level Reached:"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/levelTv"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="15"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/returnBtn"
+        android:text="Restart"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
